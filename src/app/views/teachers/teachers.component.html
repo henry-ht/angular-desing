@@ -1,0 +1,104 @@
+<div >
+  <h2 class="text-uppercase mb-5">
+    ClassRoom
+  </h2>
+  <div class="row mb-3">
+    <div class="col-md-6 py-2">
+      <div class="input-group flex-nowrap mt-1">
+        <select name="course" class="form-control w-25" >
+          <option value="1">Primero</option>
+          <option value="2">Segundo</option>
+          <option value="3">Tercero</option>
+          <option value="4">Cuarto</option>
+        </select>
+        <span class="input-group-text bg-transparent rounded-0">
+          <fa-icon [icon]="faArrowRight"></fa-icon>
+        </span>
+        <select name="group" class="form-control" >
+          <option value="1">01 - A</option>
+          <option value="2">02 - B</option>
+          <option value="3">03 - C</option>
+          <option value="4">04 - D</option>
+        </select>
+        <span class="input-group-text bg-transparent rounded-0">
+          <fa-icon [icon]="faCalendar"></fa-icon>
+        </span>
+        <select name="group" class="form-control" >
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <section class="row mt-4">
+    <div class="col-md-4">
+      <h4>
+        Students
+      </h4>
+      <div class="input-group flex-nowrap py-2">
+        <input type="search" class="form-control" [(ngModel)]="textSearch" placeholder="Name" >
+          <button type="button" class="input-group-text ml-1 bg-transparent">
+            <fa-icon [icon]="faPlus"></fa-icon>
+          </button>
+      </div>
+      <ul class="list-group list-group-flush" >
+        <li class="list-group-item">
+          <div class="card w-100 border-0">
+            <div class="row g-0">
+              <div class="col-md-3 p-0">
+                <img src="https://thispersondoesnotexist.com/image" class="img-fluid rounded-start shadow-sm"  >
+              </div>
+              <div class="col-md-9 p-0">
+                <div class="card-body pt-0">
+                  <h5 class="card-title mb-1 text-uppercase">Naruto H.</h5>
+                  <p class="card-text mb-0 small"><small class="text-muted">identification: 12356</small></p>
+                  <p class="card-text mb-0 small"><small class="text-muted">Age: 10</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="card w-100 border-0">
+            <div class="row g-0">
+              <div class="col-md-3 p-0">
+                <img src="https://thispersondoesnotexist.com/image" class="img-fluid rounded-start shadow-sm"  >
+              </div>
+              <div class="col-md-9 p-0">
+                <div class="card-body pt-0">
+                  <h5 class="card-title mb-1 text-uppercase">kenshin Jimura</h5>
+                  <p class="card-text mb-0 small"><small class="text-muted">identification: 12356</small></p>
+                  <p class="card-text mb-0 small"><small class="text-muted">Age: 10</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item">
+          <div class="card w-100 border-0">
+            <div class="row g-0">
+              <div class="col-md-3 p-0">
+                <img src="https://thispersondoesnotexist.com/image" class="img-fluid rounded-start shadow-sm"  >
+              </div>
+              <div class="col-md-9 p-0">
+                <div class="card-body pt-0">
+                  <h5 class="card-title mb-1 text-uppercase">Ami damaru</h5>
+                  <p class="card-text mb-0 small"><small class="text-muted">identification: 12356</small></p>
+                  <p class="card-text mb-0 small"><small class="text-muted">Age: 10</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-8">
+      <h4>
+        Califications
+      </h4>
+    </div>
+  </section>
+</div>
