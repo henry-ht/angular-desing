@@ -1,4 +1,4 @@
-import { faArrowRight, faCalendar, faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faCalendar, faPlus, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class TeachersComponent implements OnInit {
   textSearch:string = "";
   faPlus = faPlus;
+  faTrash = faTrash;
   faArrowRight = faArrowRight;
   faCalendar = faCalendar;
   constructor() { }

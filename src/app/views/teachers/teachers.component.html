@@ -39,14 +39,11 @@
       </h4>
       <div class="input-group flex-nowrap py-2">
         <input type="search" class="form-control" [(ngModel)]="textSearch" placeholder="Name" >
-          <button type="button" class="input-group-text ml-1 bg-transparent">
-            <fa-icon [icon]="faPlus"></fa-icon>
-          </button>
       </div>
       <ul class="list-group list-group-flush" >
-        <li class="list-group-item">
-          <div class="card w-100 border-0">
-            <div class="row g-0">
+        <li class="list-group-item students-active">
+          <div class="card w-100 border-0 bg-transparent">
+            <div class="row g-0 mx-0">
               <div class="col-md-3 p-0">
                 <img src="https://thispersondoesnotexist.com/image" class="img-fluid rounded-start shadow-sm"  >
               </div>
@@ -61,7 +58,7 @@
           </div>
         </li>
         <li class="list-group-item">
-          <div class="card w-100 border-0">
+          <div class="card w-100 border-0 mx-0 bg-transparent">
             <div class="row g-0">
               <div class="col-md-3 p-0">
                 <img src="https://thispersondoesnotexist.com/image" class="img-fluid rounded-start shadow-sm"  >
@@ -78,7 +75,7 @@
         </li>
 
         <li class="list-group-item">
-          <div class="card w-100 border-0">
+          <div class="card w-100 border-0 mx-0 bg-transparent">
             <div class="row g-0">
               <div class="col-md-3 p-0">
                 <img src="https://thispersondoesnotexist.com/image" class="img-fluid rounded-start shadow-sm"  >
@@ -96,9 +93,70 @@
       </ul>
     </div>
     <div class="col-md-8">
-      <h4>
-        Califications
-      </h4>
+      <div class="w-100 d-flex justify-content-between">
+        <h4>
+          Califications
+        </h4>
+        <button type="button" class="input-group-text ml-1 bg-transparent">
+          <fa-icon [icon]="faPlus"></fa-icon>
+        </button>
+      </div>
+      <hr>
+      <ul class="list-group list-group-flush" >
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 pr-0">
+              <input type="number" class="form-control text-center" value="2.5">
+            </div>
+            <div class="col-md-8">
+              <p class="my-0">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </p>
+            </div>
+            <div class="col-md-2 text-right">
+              <button type="button" class="btn-small btn-light border-0">
+                <fa-icon [icon]="faTrash"></fa-icon>
+              </button>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 pr-0">
+              <input type="number" class="form-control text-center" value="1.0">
+            </div>
+            <div class="col-md-8">
+              <p class="my-0">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </p>
+            </div>
+            <div class="col-md-2 text-right">
+              <button type="button" class="btn-small btn-light border-0">
+                <fa-icon [icon]="faTrash"></fa-icon>
+              </button>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 pr-0">
+              <input type="number" class="form-control text-center" value="4.1">
+            </div>
+            <div class="col-md-8">
+              <p class="my-0">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              </p>
+            </div>
+            <div class="col-md-2 text-right">
+              <button type="button" class="btn-small btn-light border-0">
+                <fa-icon [icon]="faTrash"></fa-icon>
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 </div>
